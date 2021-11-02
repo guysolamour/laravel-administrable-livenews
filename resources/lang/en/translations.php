@@ -1,0 +1,42 @@
+<?php
+
+return [
+    "label" => "Livenews",
+    'controller' => [
+        'create' => 'The livenews has been created',
+        'update' => 'The livenews has been updated',
+        'delete' => 'The livenews has been deleted',
+    ],
+    'view' => [
+        'yes'        => 'Yes',
+        'no'         => 'No',
+        'text_color' => "Text color",
+        'back_color' => 'Background color',
+        'size'       => 'Texte size',
+        'started_at' => 'Started at',
+        'ended_at'   => 'Ended at',
+        'content'    => 'Text to show',
+        'uppercase'  => 'Uppercase text',
+        'online'     => 'Show for users',
+        'actions'    => 'Actions',
+        'text'       => 'Text',
+        'destroy'    => "Are you sure to remove this livenews ?",
+    ],
+    'default' => [
+        'add'            => 'Add',
+        'deleteall'      => 'Delete all',
+        'delete'         => 'Delete',
+        'edit'           => 'Edit',
+        'edition'        => 'Edition',
+        'minus'          => 'Minus',
+        'cancel'         => 'Cancel',
+        'show'           => 'Show',
+        'clone'          => 'Clone',
+        'save'           => 'Save',
+        'modify'         => 'Modify',
+        'dashboard'      => 'Dashboard',
+        'yes'            => 'Yes',
+        'no'             => 'No',
+        'destroymodels'  => 'The selected items has been deleted',
+    ],
+];
